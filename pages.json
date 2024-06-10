@@ -1,0 +1,20 @@
+{
+    "8ceb9a6dc361ae9abddb7352e885bede": {
+        "page_script_hash": "8ceb9a6dc361ae9abddb7352e885bede",
+        "page_name": "main",
+        "icon": "",
+        "script_path": "C:\\Users\\WilliamPennell\\OneDrive - Seafair Capital\\Documents\\streamlit-authentication\\main.py"
+    },
+    "8822a29e6fe80035d8237b24a469556f": {
+        "page_script_hash": "8822a29e6fe80035d8237b24a469556f",
+        "page_name": "Page_1",
+        "icon": "",
+        "script_path": "C:\\Users\\WilliamPennell\\OneDrive - Seafair Capital\\Documents\\streamlit-authentication\\pages\\1_Page_1.py"
+    },
+    "4490de755216ef417dc7a76328f9ae01": {
+        "page_script_hash": "4490de755216ef417dc7a76328f9ae01",
+        "page_name": "Page_2",
+        "icon": "",
+        "script_path": "C:\\Users\\WilliamPennell\\OneDrive - Seafair Capital\\Documents\\streamlit-authentication\\pages\\2_Page_2.py"
+    }
+}
