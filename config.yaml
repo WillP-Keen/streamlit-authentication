@@ -14,8 +14,8 @@ credentials:
       password: def # Will be hashed automatically
 cookie:
   expiry_days: 30
-  key: some_signature_key # Must be string
-  name: some_cookie_name123123
+  key: mykeenkeyyekneekym
+  name: mykeen-cookie
 pre-authorized:
   emails:
     - melsby@gmail.com
