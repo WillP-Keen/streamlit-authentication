@@ -9,8 +9,9 @@ from pathlib import Path
 import yaml
 from yaml.loader import SafeLoader
 
-client = MongoClient(st.secrets["MONGODB_CONNECTION_STRING"])
-st.write(st.secrets["MONGODB_CONNECTION_STRING"])
+client = MongoClient(
+    "mongodb+srv://keener:1234abcd@cluster0.mnysb3d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+)
 
 db = client["will"]
 users_collection = db["UserAuthentication"]
@@ -56,6 +57,7 @@ def authenticate():
 
     if st.session_state["authentication_status"]:
         st.success("welcome")
+        authenticator.logout("Logout")
 
     elif st.session_state["authentication_status"] is False:
         st.error("Username/Password Incorrect")
