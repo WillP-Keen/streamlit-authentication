@@ -9,14 +9,7 @@ from pathlib import Path
 import yaml
 from yaml.loader import SafeLoader
 
-<<<<<<< HEAD
-client = MongoClient(
-    "mongodb+srv://keener:1234abcd@cluster0.mnysb3d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-)
-=======
 client = MongoClient(st.secrets["MONGODB_CONNECTION_STRING"])
->>>>>>> f435180 (removed debugging print statements)
-
 db = client["will"]
 users_collection = db["UserAuthentication"]
 
