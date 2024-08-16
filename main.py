@@ -9,10 +9,11 @@ from pathlib import Path
 import yaml
 from yaml.loader import SafeLoader
 
-client = MongoClient(st.secrets["MONGODB_CONNECTION_STRING"])
+#client = MongoClient(st.secrets["MONGODB_CONNECTION_STRING"])
+st.write(st.secrets["MONGODB_CONNECTION_STRING"])
 
-db = client["will"]
-users_collection = db["UserAuthentication"]
+#db = client["will"]
+#users_collection = db["UserAuthentication"]
 
 
 def get_users(collection):
@@ -62,4 +63,4 @@ def authenticate():
         st.warning("Please enter username and password")
 
 
-authenticate()
+#authenticate()
