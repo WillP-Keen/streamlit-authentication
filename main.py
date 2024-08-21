@@ -41,6 +41,7 @@ def get_credentials():
 
 def authenticate():
     credentials = get_credentials()
+    st.write(credentials)
 
     authenticator = stauth.Authenticate(
         credentials=credentials,
